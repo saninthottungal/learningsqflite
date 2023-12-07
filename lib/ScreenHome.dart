@@ -5,8 +5,9 @@ class ScreenHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: Text("data")),
+    return Scaffold(
+      appBar: AppBar(),
+      body: const Center(child: Text("data")),
     );
   }
 }

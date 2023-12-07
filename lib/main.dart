@@ -10,8 +10,9 @@ class sqApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: ScreenHome(),
+    return MaterialApp(
+      theme: ThemeData(appBarTheme: const AppBarTheme(color: Colors.blue)),
+      home: const ScreenHome(),
     );
   }
 }
